@@ -1,5 +1,4 @@
 import React from "react";
-import bgImg from "../assets/images/bg-img.webp";
 import bannerImg from "../assets/images/banner.jpg";
 import { Link } from "react-router-dom";
 

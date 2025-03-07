@@ -1,5 +1,4 @@
 import React from "react";
-import bannerImg from "../assets/images/banner.webp";
 import vid from "../assets/vids/banner.mp4";
 import aboutImg from "../assets/images/aboutus-img3.webp";
 import { Link } from "react-router-dom";
