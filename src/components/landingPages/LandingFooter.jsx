@@ -1,12 +1,6 @@
 import React from "react";
 import { companyDetails, logoImg } from "../../constant";
-import {
-  Instagram,
-  Linkedin,
-  Mail,
-  Phone,
-  Twitter,
-} from "lucide-react";
+import { Instagram, Linkedin, Mail, Phone, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -23,11 +17,11 @@ const LandingFooter = () => {
             width="200"
             height="50"
             src={logoImg}
-            className="w-[12rem] object-contain"
+            className="w-[8rem] object-contain"
             alt="logo"
           />
           <div className="flex items-center gap-3 mt-5">
-          <Link
+            <Link
               aria-label="Contact us on Instagram"
               to={companyDetails.instagram}
               className="w-[2rem] h-[2rem] rounded-full p-2 bg-secondary hover:bg-primary text-primary_text hover:text-white hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"

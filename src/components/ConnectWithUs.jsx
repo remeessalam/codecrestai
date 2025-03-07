@@ -1,6 +1,6 @@
 import React from "react";
 import bgImg from "../assets/images/bg-img.webp";
-import bannerImg from "../assets/images/banner.webp";
+import bannerImg from "../assets/images/banner.jpg";
 import { Link } from "react-router-dom";
 
 const ConnectWithUs = () => {
@@ -9,7 +9,7 @@ const ConnectWithUs = () => {
       className="py-[5rem] relative bg-primary/40 min-h-[50vh]"
       // style={{ backgroundImage: `url(${bgImg})` }}
     >
-      <div className="absolute top-0 w-full h-full bg-background/80"></div>
+      <div className="absolute top-0 w-full h-full bg-black/80"></div>
       <div data-aos="fade-up" className="max-w-7xl mx-auto">
         <div
           className="mx-5 rounded-xl overflow-hidden bg-center bg-cover relative shadow-inner shadow-primary/40"
